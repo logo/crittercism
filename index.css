@@ -1,0 +1,26 @@
+
+/**
+ * Crittercism
+ */
+
+.logo[data-logo="Crittercism"] {
+  width: 5.158467978em;
+  /* (11.4616/2.2219) * (1) */
+}
+
+.logo[data-logo="Crittercism"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0;
+}
+
+.logo[data-logo="Crittercism"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
+
+.logo[data-logo="Crittercism"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Crittercism"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
